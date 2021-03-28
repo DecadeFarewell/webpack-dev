@@ -1,0 +1,22 @@
+{
+  "name": "webpack-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "4",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "dev": "webpack -dev-serve"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "0.5.0"
+  }
+}
